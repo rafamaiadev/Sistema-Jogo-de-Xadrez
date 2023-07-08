@@ -1,6 +1,7 @@
 package chess.pieces;
 
 import boardgame.Board;
+import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
@@ -11,11 +12,15 @@ public class Knight extends ChessPiece {
 
     @Override
     public String toString() {
-        return "K";
+        return "C";
     }
+
     @Override
     public boolean[][] possibleMoves() {
         boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
+
+
+
         return mat;
     }
 }
