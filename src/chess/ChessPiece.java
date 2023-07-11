@@ -16,12 +16,15 @@ public abstract class ChessPiece extends Piece {
     public Color getColor() {
         return color;
     }
+
     public int getMoveCount() {
         return moveCount;
     }
+
     public void increaseMoveCount() {
         moveCount++;
     }
+
     public void decreaseMoveCount() {
         moveCount--;
     }
